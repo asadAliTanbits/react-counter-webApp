@@ -20,10 +20,10 @@ const CounterApp = () => {
   };
 
   return (
-    <div className="flex text-center flex-col content-between  bg-slate-500 w-[500] h-[500px] m-20 p-10 text-white">
-      <h2 className="">Counter App</h2>
+    <div className="flex text-center flex-col justify-between bg-slate-500 w-[200] h-[200] m-20 p-10 text-white">
+      <h2 className="text-3xl font-bold">Counter App</h2>
       <p className="text-8xl font-extrabold">{count}</p>
-      <div className="flex flex-row justify-center mt-10">
+      <div className="flex md:flex-row justify-center mt-10">
         <button
           className="btn decrease mx-1 py-4 px-8 text-lg border-2 rounded-md"
           onClick={() => buttonClick("decrease")}
