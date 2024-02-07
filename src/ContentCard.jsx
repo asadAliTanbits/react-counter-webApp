@@ -1,7 +1,6 @@
 import React from 'react'
 
 const ContentCard = (props) => {
-    console.log(props)
   return (
     <div className='context-card m-10 w-80'>
         <img src={props.imgUrl} alt="" />
